@@ -29,4 +29,11 @@ python release.py --image-dir YOUR_IMAGE_DIRECTORY --image-info YOUR_IMAGE_CSV
 '''
 
 ## Acknowledgements
-The implementation is appreciated by [AdaEA](https://github.com/CHENBIN99/AdaEA)
+We appreciate the contribution in [AdaEA](https://github.com/CHENBIN99/AdaEA).
+Please refer to our work as following:
+@inproceedings{c:60,
+	author={Bowen, Tang and Wang, Zheng and Yi, Bin and Qi, Dou and Yang, Yang and Shen, Heng Tao},
+	booktitle = CVPR, 
+	title={Ensemble Diversity Facilitates Adversarial Transferability}, 
+	year={2024}
+	}
