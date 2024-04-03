@@ -9,7 +9,7 @@ def get_args():
     parser = argparse.ArgumentParser(description='benchmark of cifar10')
     parser.add_argument('--seed', type=int, default=1789)
     parser.add_argument('--dataset', type=str, default='imagenet_compatible',help='imagenet_compatible')
-    parser.add_argument('--batch-size', type=int, default=200,
+    parser.add_argument('--batch-size', type=int, default=10,
                         help='the batch size when training')
     parser.add_argument('--image-size', type=int, default=224,
                         help='image size of the dataloader')
