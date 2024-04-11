@@ -6,8 +6,7 @@ from utils.tools import same_seeds, get_project_path
 import argparse
 from attack_method import MI_FGSM_SMER
 def get_args():
-    parser = argparse.ArgumentParser(description='benchmark of cifar10')
-    parser.add_argument('--seed', type=int, default=1789)
+    parser = argparse.ArgumentParser(description='SMER')
     parser.add_argument('--dataset', type=str, default='imagenet_compatible',help='imagenet_compatible')
     parser.add_argument('--batch-size', type=int, default=10,
                         help='the batch size when training')
@@ -70,7 +69,6 @@ def main(args):
 
 if __name__ == '__main__':
     args = get_args()
-    same_seeds(args.seed)
     root_path = get_project_path()
     setattr(args, 'root_path', root_path)
     main(args)
