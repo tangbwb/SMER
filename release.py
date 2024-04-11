@@ -8,7 +8,7 @@ from attack_method import MI_FGSM_SMER
 def get_args():
     parser = argparse.ArgumentParser(description='SMER')
     parser.add_argument('--dataset', type=str, default='imagenet_compatible',help='imagenet_compatible')
-    parser.add_argument('--batch-size', type=int, default=10,
+    parser.add_argument('--batch-size', type=int, default=100,
                         help='the batch size when training')
     parser.add_argument('--image-size', type=int, default=224,
                         help='image size of the dataloader')
@@ -26,7 +26,6 @@ def get_args():
     parser.add_argument('--momentum', type=float, default=1.0,
                         help='default momentum value')
     parser.add_argument('--beta', type=float, default=10)
-
     args = parser.parse_args()
     return args
 
