@@ -4,7 +4,6 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 import torch.nn as nn
 
-
 def clip_by_tensor(t, t_min, t_max):
     """
     clip_by_tensor
