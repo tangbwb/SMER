@@ -20,8 +20,8 @@ It is recommended you to conduct the experiments as following:
 python release.py --image-dir YOUR_IMAGE_DIRECTORY --image-info YOUR_IMAGE_CSV
 '''
 ## Acknowledgements
-We appreciate the contribution in [AdaEA](https://github.com/CHENBIN99/AdaEA).  
-Please refer to our work as following:  
+We appreciate the contribution in [AdaEA](https://github.com/CHENBIN99/AdaEA).
+## Citation
 @inproceedings{  
 title     = {Ensemble Diversity Facilitates Adversarial Transferability},  
 author    = {Bowen, Tang and Wang, Zheng and Yi, Bin and Qi, Dou and Yang, Yang and Shen, Heng Tao},  
