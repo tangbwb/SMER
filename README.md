@@ -24,7 +24,7 @@ We appreciate the contribution in [AdaEA](https://github.com/CHENBIN99/AdaEA).
 ## Citation
 @inproceedings{  
 title     = {Ensemble Diversity Facilitates Adversarial Transferability},  
-author    = {Bowen, Tang and Wang, Zheng and Yi, Bin and Qi, Dou and Yang, Yang and Shen, Heng Tao},  
+author    = {Bowen, Tang and Zheng, Wang and Yi, Bin and Qi, Dou and Yang, Yang and Shen, Heng Tao},  
 booktitle = {Proceedings of the IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},  
 year      = {2024}  
 }
